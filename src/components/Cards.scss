@@ -1,18 +1,17 @@
 .card {
-    width: 240px;
-    height: 328px;
-
     background-color: #fff;
 
     box-shadow: 0px 4px 8px rgba(12, 25, 50, 0.12);
     border-radius: 6px;
     overflow: hidden;
 
+    height: 333px;
+
     .card-details{
         display: flex;
         flex-direction: column;
 
-        padding: 1rem;
+        padding-left: 1rem;
    
 
     .datails-title{
@@ -22,7 +21,7 @@
 
             color: #0C1932;
 
-            padding-bottom: 8px;
+            padding-block: 16px 8px;
     }
 
     .datails-minutes{
