@@ -1,0 +1,19 @@
+.div-fantasma{
+    height: 56px;
+    background-color: hsla(258, 80%, 44%, 1);
+}
+
+.card-container {
+    width: 63rem;
+    height: 41rem;
+
+    margin: 0 auto;
+
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+
+    margin-block: 2rem 25rem;
+}
